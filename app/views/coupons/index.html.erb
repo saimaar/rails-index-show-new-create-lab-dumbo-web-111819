@@ -1,0 +1,6 @@
+<h1>Welcome to All Stores Page</h1>
+<% @coupons.each do |coupon|%>
+
+<div><%=link_to coupon.coupon_code, coupon%> | <%= coupon.store %> </div>
+
+<%end%>

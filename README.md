@@ -29,10 +29,10 @@ In this lab, the application you will be starting out with will be completely bl
 Like many production applications, we've included the `config/secrets.yml` file in the `.gitignore`. This means that you are going to have to create your own `config/secrets.yml` file for the application to run. Don't worry- we've given you a template. Just rename `config/secrets-template.yml` to `config/secrets.yml`, and you should be able to get the application to run.
 
 The application you will be building is a Coupon app. Below is a high-level overview of the features you'll be building out:
+<!--
+* You will need to create a `coupons` table with `coupon_code` and `store` columns, which should both be of the `string` data type. -->
 
-* You will need to create a `coupons` table with `coupon_code` and `store` columns, which should both be of the `string` data type.
-
-* Your `index` page should show all of the coupons in the database.
+<!-- * Your `index` page should show all of the coupons in the database. -->
 
 * The coupon codes on the `index` page should link to their corresponding coupon `show` page. You should use the `link_to` method and route helper methods instead of hard-coding an HTML `<a>` tag.
 
